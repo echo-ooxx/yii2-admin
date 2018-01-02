@@ -1,7 +1,7 @@
 {
-    "name": "echoOOXX/yii2-admin",
+    "name": "echo-ooxx/yii2-admin",
     "description": "RBAC Auth manager for Yii2 ",
-    "keywords": ["yii", "admin", "auth", "rbac", "yii2-admin", "echoOOXX"],
+    "keywords": ["yii", "admin", "auth", "rbac", "yii2-admin", "echoooxx"],
     "license": "BSD-3-Clause",
     "type": "yii2-extension",
     "authors": [
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "echoOOXX\\admin\\": ""
+            "echoooxx\\admin\\": ""
         }
     }
 }
