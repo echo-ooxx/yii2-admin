@@ -1,0 +1,28 @@
+{
+    "name": "echoOOXX/yii2-admin",
+    "description": "RBAC Auth manager for Yii2 ",
+    "keywords": ["yii", "admin", "auth", "rbac", "yii2-admin", "echoOOXX"],
+    "license": "BSD-3-Clause",
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "leezhang",
+            "email": "zhanglimcgrady@sina.com"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/echoOOXX/yii2-admin"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "~2.0.4"
+    },
+    "suggest": {
+        "yiisoft/yii2-bootstrap": "Used when using layout 'left-menu', 'right-menu' or 'top-menu'"
+    },
+    "autoload": {
+        "psr-4": {
+            "echoOOXX\\admin\\": ""
+        }
+    }
+}
