@@ -3,8 +3,8 @@
 namespace echoxxoo\admin\components;
 
 use Yii;
-use izyue\admin\models\AuthItem;
-use izyue\admin\models\searchs\AuthItem as AuthItemSearch;
+use echoxxoo\admin\models\AuthItem;
+use echoxxoo\admin\models\searchs\AuthItem as AuthItemSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

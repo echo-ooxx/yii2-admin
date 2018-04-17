@@ -4,7 +4,7 @@ namespace echoxxoo\admin\components;
 
 use Yii;
 use yii\caching\TagDependency;
-use izyue\admin\models\Menu;
+use echoxxoo\admin\models\Menu;
 use yii\helpers\ArrayHelper;
 
 /**
@@ -12,7 +12,7 @@ use yii\helpers\ArrayHelper;
  * Usage
  * 
  * ~~~
- * use izyue\admin\components\MenuHelper;
+ * use echoxxoo\admin\components\MenuHelper;
  * use yii\bootstrap\Nav;
  *
  * echo Nav::widget([
