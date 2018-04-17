@@ -1,10 +1,10 @@
 <?php
 
-namespace echoxxoo\admin\components;
+namespace echoooxx\admin\components;
 
 use Yii;
-use echoxxoo\admin\models\AuthItem;
-use echoxxoo\admin\models\searchs\AuthItem as AuthItemSearch;
+use echoooxx\admin\models\AuthItem;
+use echoooxx\admin\models\searchs\AuthItem as AuthItemSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

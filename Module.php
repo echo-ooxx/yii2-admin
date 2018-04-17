@@ -1,6 +1,6 @@
 <?php
 
-namespace echoxxoo\admin;
+namespace echoooxx\admin;
 
 use Yii;
 use yii\helpers\Inflector;

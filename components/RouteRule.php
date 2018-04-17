@@ -1,6 +1,6 @@
 <?php
 
-namespace echoxxoo\admin\components;
+namespace echoooxx\admin\components;
 
 /**
  * RouteRule Rule for check route with extra params.

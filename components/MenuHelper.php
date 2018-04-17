@@ -1,10 +1,10 @@
 <?php
 
-namespace echoxxoo\admin\components;
+namespace echoooxx\admin\components;
 
 use Yii;
 use yii\caching\TagDependency;
-use echoxxoo\admin\models\Menu;
+use echoooxx\admin\models\Menu;
 use yii\helpers\ArrayHelper;
 
 /**
@@ -12,7 +12,7 @@ use yii\helpers\ArrayHelper;
  * Usage
  * 
  * ~~~
- * use echoxxoo\admin\components\MenuHelper;
+ * use echoooxx\admin\components\MenuHelper;
  * use yii\bootstrap\Nav;
  *
  * echo Nav::widget([

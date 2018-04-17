@@ -1,6 +1,6 @@
 <?php
 
-namespace echoxxoo\admin\components;
+namespace echoooxx\admin\components;
 
 /**
  * DbManager represents an authorization manager that stores authorization information in database.

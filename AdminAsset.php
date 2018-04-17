@@ -1,6 +1,6 @@
 <?php
 
-namespace echoxxoo\admin;
+namespace echoooxx\admin;
 
 /**
  * AdminAsset

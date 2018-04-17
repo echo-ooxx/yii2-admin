@@ -1,6 +1,6 @@
 <?php
 
-namespace echoxxoo\admin\controllers;
+namespace echoooxx\admin\controllers;
 
 use izyue\admin\components\MenuHelper;
 use Yii;

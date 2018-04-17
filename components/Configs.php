@@ -1,6 +1,6 @@
 <?php
 
-namespace echoxxoo\admin\components;
+namespace echoooxx\admin\components;
 
 use Yii;
 use yii\db\Connection;
@@ -14,7 +14,7 @@ use yii\helpers\ArrayHelper;
  * ~~~
  * return [
  *     
- *     'echoxxoo.admin.configs' => [
+ *     'echoooxx.admin.configs' => [
  *         'db' => 'customDb',
  *         'menuTable' => 'admin_menu',
  *     ]
@@ -24,7 +24,7 @@ use yii\helpers\ArrayHelper;
  * or use [[\Yii::$container]]
  * 
  * ~~~
- * Yii::$container->set('echoxxoo\admin\components\Configs',[
+ * Yii::$container->set('echoooxx\admin\components\Configs',[
  *     'db' => 'customDb',
  *     'menuTable' => 'admin_menu',
  * ]);
@@ -35,7 +35,7 @@ use yii\helpers\ArrayHelper;
  */
 class Configs extends \yii\base\Object
 {
-    const CACHE_TAG = 'echoxxoo.admin';
+    const CACHE_TAG = 'echoooxx.admin';
     /**
      * @var Connection Database connection.
      */
@@ -105,7 +105,7 @@ class Configs extends \yii\base\Object
     public static function instance()
     {
         if (self::$_instance === null) {
-            $type = ArrayHelper::getValue(Yii::$app->params, 'echoxxoo.admin.configs', []);
+            $type = ArrayHelper::getValue(Yii::$app->params, 'echoooxx.admin.configs', []);
             if (is_array($type) && !isset($type['class'])) {
                 $type['class'] = static::className();
             }

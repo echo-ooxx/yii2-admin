@@ -1,8 +1,8 @@
 <?php
 
-namespace echoxxoo\admin\components;
+namespace echoooxx\admin\components;
 
-use echoxxoo\admin\models\Log;
+use echoooxx\admin\models\Log;
 use yii\web\ForbiddenHttpException;
 use yii\base\Module;
 use Yii;
@@ -19,7 +19,7 @@ use yii\di\Instance;
  *
  * ~~~
  * 'as access' => [
- *     'class' => 'echoxxoo\admin\components\AccessControl',
+ *     'class' => 'echoooxx\admin\components\AccessControl',
  *     'allowActions' => ['site/login', 'site/error']
  * ]
  * ~~~

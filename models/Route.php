@@ -1,5 +1,5 @@
 <?php
-namespace echoxxoo\admin\models;
+namespace echoooxx\admin\models;
 /**
  * Route
  *
