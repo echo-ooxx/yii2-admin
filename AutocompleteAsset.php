@@ -1,6 +1,6 @@
 <?php
 
-namespace izyue\admin;
+namespace echoxxoo\admin;
 
 /**
  * AutocompleteAsset

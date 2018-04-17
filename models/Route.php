@@ -1,5 +1,5 @@
 <?php
-namespace izyue\admin\models;
+namespace echoxxoo\admin\models;
 /**
  * Route
  *

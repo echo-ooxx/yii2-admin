@@ -1,6 +1,6 @@
 <?php
 
-namespace izyue\admin\controllers;
+namespace echoxxoo\admin\controllers;
 
 use backend\models\SignupForm;
 use izyue\admin\components\MenuHelper;

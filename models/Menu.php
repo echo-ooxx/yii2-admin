@@ -1,6 +1,6 @@
 <?php
 
-namespace izyue\admin\models;
+namespace echoxxoo\admin\models;
 
 use Yii;
 use izyue\admin\components\Configs;

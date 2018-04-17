@@ -1,6 +1,6 @@
 <?php
 
-namespace izyue\admin\components;
+namespace echoxxoo\admin\components;
 
 use izyue\admin\models\Log;
 use yii\web\ForbiddenHttpException;
