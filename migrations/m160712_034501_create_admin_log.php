@@ -1,7 +1,7 @@
 <?php
 
 
-use \izyue\admin\components\Configs;
+use \echoooxx\admin\components\Configs;
 use yii\db\Migration;
 
 class m160712_034501_create_admin_log extends Migration

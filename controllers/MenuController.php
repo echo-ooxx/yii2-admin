@@ -2,15 +2,15 @@
 
 namespace echoooxx\admin\controllers;
 
-use izyue\admin\components\MenuHelper;
+use echoooxx\admin\components\MenuHelper;
 use Yii;
-use izyue\admin\models\Menu;
-use izyue\admin\models\searchs\Menu as MenuSearch;
+use echoooxx\admin\models\Menu;
+use echoooxx\admin\models\searchs\Menu as MenuSearch;
 use yii\helpers\Url;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use izyue\admin\components\Helper;
+use echoooxx\admin\components\Helper;
 
 /**
  * MenuController implements the CRUD actions for Menu model.

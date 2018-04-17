@@ -5,10 +5,10 @@ namespace echoooxx\admin\models\searchs;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use izyue\admin\models\Log as LogModel;
+use echoooxx\admin\models\Log as LogModel;
 
 /**
- * Menu represents the model behind the search form about [[\izyue\admin\models\Menu]].
+ * Menu represents the model behind the search form about [[\echoooxx\admin\models\Menu]].
  * 
  * @author Misbahul D Munir <misbahuldmunir@gmail.com>
  * @since 1.0

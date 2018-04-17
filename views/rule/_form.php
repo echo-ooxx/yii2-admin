@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this  yii\web\View */
-/* @var $model izyue\admin\models\BizRule */
+/* @var $model echoooxx\admin\models\BizRule */
 /* @var $form ActiveForm */
 ?>
 

@@ -1,6 +1,6 @@
 <?php
 use yii\db\Migration;
-use izyue\admin\components\Configs;
+use echoooxx\admin\components\Configs;
 class m160608_050000_create_admin extends Migration
 {
     public function up()

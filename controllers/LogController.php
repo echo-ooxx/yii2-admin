@@ -2,15 +2,15 @@
 
 namespace echoooxx\admin\controllers;
 
-use izyue\admin\components\MenuHelper;
+use echoooxx\admin\components\MenuHelper;
 use Yii;
-use izyue\admin\models\Log;
-use izyue\admin\models\searchs\Log as LogSearch;
+use echoooxx\admin\models\Log;
+use echoooxx\admin\models\searchs\Log as LogSearch;
 use yii\helpers\Url;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use izyue\admin\components\Helper;
+use echoooxx\admin\components\Helper;
 
 /**
  * LogController

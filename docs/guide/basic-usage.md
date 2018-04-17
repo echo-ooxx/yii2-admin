@@ -9,11 +9,11 @@ Using module in configuration
 'modules' => [
     ...
     'admin' => [
-        'class' => 'izyue\admin\Module',
+        'class' => 'echoooxx\admin\Module',
         'layout' => 'left-menu', // it can be '@path/to/your/layout'.
         'controllerMap' => [
             'assignment' => [
-                'class' => 'izyue\admin\controllers\AssignmentController',
+                'class' => 'echoooxx\admin\controllers\AssignmentController',
                 'userClassName' => 'app\models\User',
                 'idField' => 'user_id'
             ],
@@ -37,11 +37,11 @@ Access Control Filter (ACF) is a simple authorization method that is best used b
 As its name indicates, ACF is an action filter that can be attached to a controller or a module as a behavior. 
 ACF will check a set of access rules to make sure the current user can access the requested action.
 
-The code below shows how to use ACF which is implemented as `izyue\admin\components\AccessControl`:
+The code below shows how to use ACF which is implemented as `echoooxx\admin\components\AccessControl`:
 
 ```php
 'as access' => [
-    'class' => 'izyue\admin\components\AccessControl',
+    'class' => 'echoooxx\admin\components\AccessControl',
     'allowActions' => [
         'site/login', 
         'site/error',

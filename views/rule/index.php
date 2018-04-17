@@ -5,9 +5,9 @@ use yii\grid\GridView;
 use yii\widgets\Pjax;
 
 /* @var $this  yii\web\View */
-/* @var $model izyue\admin\models\BizRule */
+/* @var $model echoooxx\admin\models\BizRule */
 /* @var $dataProvider yii\data\ActiveDataProvider */
-/* @var $searchModel izyue\admin\models\searchs\BizRule */
+/* @var $searchModel echoooxx\admin\models\searchs\BizRule */
 
 $this->title = Yii::t('rbac-admin', 'Rules');
 $this->params['breadcrumbs'][] = $this->title;

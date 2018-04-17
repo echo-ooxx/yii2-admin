@@ -4,7 +4,7 @@ use yii\helpers\Html;
 
 /**
  * @var yii\web\View $this
- * @var izyue\admin\models\AuthItem $model
+ * @var echoooxx\admin\models\AuthItem $model
  */
 
 $this->title = Yii::t('rbac-admin', 'Create Role');

@@ -3,13 +3,13 @@
 namespace echoooxx\admin\controllers;
 
 use backend\models\SignupForm;
-use izyue\admin\components\MenuHelper;
+use echoooxx\admin\components\MenuHelper;
 use Yii;
-use izyue\admin\models\searchs\Assignment as AssignmentSearch;
+use echoooxx\admin\models\searchs\Assignment as AssignmentSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use izyue\admin\components\Helper;
+use echoooxx\admin\components\Helper;
 
 /**
  * AssignmentController implements the CRUD actions for Assignment model.

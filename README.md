@@ -3,10 +3,10 @@ RBAC Manager for Yii 2
 
 需要依赖这个[项目](https://github.com/liulipeng/Yii2-Project-Admin)来安装Admin, 详情请查阅 [https://github.com/liulipeng/Yii2-Project-Admin](https://github.com/liulipeng/Yii2-Project-Admin)
 
-[![Latest Stable Version](https://poser.pugx.org/izyue/yii2-admin/v/stable)](https://packagist.org/packages/izyue/yii2-admin)
-[![Total Downloads](https://poser.pugx.org/izyue/yii2-admin/downloads)](https://packagist.org/packages/izyue/yii2-admin)
-[![License](https://poser.pugx.org/izyue/yii2-admin/license)](https://packagist.org/packages/izyue/yii2-admin)
-[![Daily Downloads](https://poser.pugx.org/izyue/yii2-admin/d/daily)](https://packagist.org/packages/izyue/yii2-admin)
+[![Latest Stable Version](https://poser.pugx.org/echoooxx/yii2-admin/v/stable)](https://packagist.org/packages/echoooxx/yii2-admin)
+[![Total Downloads](https://poser.pugx.org/echoooxx/yii2-admin/downloads)](https://packagist.org/packages/echoooxx/yii2-admin)
+[![License](https://poser.pugx.org/echoooxx/yii2-admin/license)](https://packagist.org/packages/echoooxx/yii2-admin)
+[![Daily Downloads](https://poser.pugx.org/echoooxx/yii2-admin/d/daily)](https://packagist.org/packages/echoooxx/yii2-admin)
 
 ### 功能
 
@@ -30,27 +30,27 @@ RBAC Manager for Yii 2
 
 #### 登录
 
-![](http://www.izyue.com/yii2-admin/index/1.jpg)
+![](http://www.echoooxx.com/yii2-admin/index/1.jpg)
 
 #### 首页
 
-![](http://www.izyue.com/yii2-admin/index/2.jpg)
+![](http://www.echoooxx.com/yii2-admin/index/2.jpg)
 
 #### 权限管理
 
-![](http://www.izyue.com/yii2-admin/index/3.jpg)
+![](http://www.echoooxx.com/yii2-admin/index/3.jpg)
 
 #### 角色管理
 
-![](http://www.izyue.com/yii2-admin/index/4.jpg)
+![](http://www.echoooxx.com/yii2-admin/index/4.jpg)
 
 #### 路由管理
 
-![](http://www.izyue.com/yii2-admin/index/5.jpg)
+![](http://www.echoooxx.com/yii2-admin/index/5.jpg)
 
 #### 菜单管理
 
-![](http://www.izyue.com/yii2-admin/index/6.jpg)
+![](http://www.echoooxx.com/yii2-admin/index/6.jpg)
 
 
 ### Install With Composer
@@ -60,19 +60,19 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require izyue/yii2-admin "*"
+php composer.phar require echoooxx/yii2-admin "*"
 ```
 
 or for the dev-master
 
 ```
-php composer.phar require izyue/yii2-admin "dev"
+php composer.phar require echoooxx/yii2-admin "dev"
 ```
 
 Or, you may add
 
 ```
-"izyue/yii2-admin": "*"
+"echoooxx/yii2-admin": "*"
 ```
 
 to the require section of your `composer.json` file and execute `php composer.phar update`.
@@ -86,8 +86,8 @@ In your application config, add the path alias for this extension.
 return [
     ...
     'aliases' => [
-        '@izyue/admin' => 'path/to/your/extracted',
-        // for example: '@izyue/admin' => '@app/extensions/mdm/yii2-admin-2.0.0',
+        '@echoooxx/admin' => 'path/to/your/extracted',
+        // for example: '@echoooxx/admin' => '@app/extensions/mdm/yii2-admin-2.0.0',
         ...
     ]
 ];
@@ -102,7 +102,7 @@ Once the extension is installed, simply modify your application configuration as
 return [
     'modules' => [
         'admin' => [
-            'class' => 'izyue\admin\Module',
+            'class' => 'echoooxx\admin\Module',
             ...
         ]
         ...
@@ -115,7 +115,7 @@ return [
         ]
     ],
     'as access' => [
-        'class' => 'izyue\admin\components\AccessControl',
+        'class' => 'echoooxx\admin\components\AccessControl',
         'allowActions' => [
             'site/*',
             'admin/*',
@@ -143,7 +143,7 @@ http://localhost/path/to/index.php?r=admin/assignment
 
 To use the menu manager (optional), execute the migration here:
 ```
-yii migrate --migrationPath=@izyue/admin/migrations
+yii migrate --migrationPath=@echoooxx/admin/migrations
 ```
 
 If you use database (class 'yii\rbac\DbManager') to save rbac data, execute the migration here:
@@ -163,7 +163,7 @@ To do that, change them via `controllerMap` property. For example:
             ...
             'controllerMap' => [
                  'assignment' => [
-                    'class' => 'izyue\admin\controllers\AssignmentController',
+                    'class' => 'echoooxx\admin\controllers\AssignmentController',
                     /* 'userClassName' => 'app\models\User', */
                     'idField' => 'user_id',
                     'usernameField' => 'username',

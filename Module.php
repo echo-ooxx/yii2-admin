@@ -15,7 +15,7 @@ use yii\helpers\Inflector;
  * 'layout' => 'left-menu', // default to null mean use application layout.
  * 'controllerMap' => [
  *     'assignment' => [
- *         'class' => 'izyue\admin\controllers\AssignmentController',
+ *         'class' => 'echoooxx\admin\controllers\AssignmentController',
  *         'userClassName' => 'app\models\User',
  *         'idField' => 'id'
  *     ]
@@ -78,7 +78,7 @@ class Module extends \yii\base\Module
      * @var string Main layout using for module. Default to layout of parent module.
      * Its used when `layout` set to 'left-menu', 'right-menu' or 'top-menu'.
      */
-    public $mainLayout = '@izyue/admin/views/layouts/main.php';
+    public $mainLayout = '@echoooxx/admin/views/layouts/main.php';
 
     /**
      * @inheritdoc
@@ -90,7 +90,7 @@ class Module extends \yii\base\Module
             Yii::$app->i18n->translations['rbac-admin'] = [
                 'class' => 'yii\i18n\PhpMessageSource',
                 'sourceLanguage' => 'en',
-                'basePath' => '@izyue/admin/messages'
+                'basePath' => '@echoooxx/admin/messages'
             ];
         }
         //user did not define the Navbar?
@@ -101,7 +101,7 @@ class Module extends \yii\base\Module
             ];
         }
         if (class_exists('yii\jui\JuiAsset')) {
-            Yii::$container->set('izyue\admin\AutocompleteAsset', 'yii\jui\JuiAsset');
+            Yii::$container->set('echoooxx\admin\AutocompleteAsset', 'yii\jui\JuiAsset');
         }
     }
 

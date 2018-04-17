@@ -13,7 +13,7 @@ class AdminAsset extends \yii\web\AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@izyue/admin/assets';
+    public $sourcePath = '@echoooxx/admin/assets';
 
     /**
      * @inheritdoc

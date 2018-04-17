@@ -3,10 +3,10 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use yii\helpers\Json;
-use izyue\admin\AutocompleteAsset;
+use echoooxx\admin\AutocompleteAsset;
 
 /* @var $this yii\web\View */
-/* @var $model izyue\admin\models\AuthItem */
+/* @var $model echoooxx\admin\models\AuthItem */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 

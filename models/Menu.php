@@ -3,7 +3,7 @@
 namespace echoooxx\admin\models;
 
 use Yii;
-use izyue\admin\components\Configs;
+use echoooxx\admin\components\Configs;
 
 /**
  * This is the model class for table "menu".

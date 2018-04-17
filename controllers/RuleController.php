@@ -3,12 +3,12 @@
 namespace echoooxx\admin\controllers;
 
 use Yii;
-use izyue\admin\models\BizRule;
+use echoooxx\admin\models\BizRule;
 use yii\web\Controller;
-use izyue\admin\models\searchs\BizRule as BizRuleSearch;
+use echoooxx\admin\models\searchs\BizRule as BizRuleSearch;
 use yii\filters\VerbFilter;
 use yii\web\NotFoundHttpException;
-use izyue\admin\components\Helper;
+use echoooxx\admin\components\Helper;
 
 /**
  * Description of RuleController

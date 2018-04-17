@@ -7,7 +7,7 @@ use yii\helpers\Html;
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-list(,$url) = Yii::$app->assetManager->publish('@izyue/admin/assets');
+list(,$url) = Yii::$app->assetManager->publish('@echoooxx/admin/assets');
 $this->registerCssFile($url.'/main.css');
 ?>
 <?php $this->beginPage() ?>

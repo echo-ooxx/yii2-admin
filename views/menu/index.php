@@ -3,11 +3,11 @@
 use yii\helpers\Html;
 use yii\grid\GridView;
 use yii\widgets\Pjax;
-use izyue\admin\components\MenuHelper;
+use echoooxx\admin\components\MenuHelper;
 
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
-/* @var $searchModel izyue\admin\models\searchs\Menu */
+/* @var $searchModel echoooxx\admin\models\searchs\Menu */
 
 $this->title = Yii::t('rbac-admin', 'Menus');
 $this->params['breadcrumbs'][] = $this->title;

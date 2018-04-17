@@ -54,7 +54,7 @@ Yii2 Admin Change Log
 - Bug: #24: change `$cache === null` to `isset($cache)` (mdmunir).
 - Bug: Bug fix. Ensure array has index before check `in_array()` (mdmunir).
 - Bug: Typo fix, replace `AssigmentController` to `AssignmentController` (mdmunir).
-- Enh: Custom side menu via `izyue\admin\Module::items` (mdmunir).
+- Enh: Custom side menu via `echoooxx\admin\Module::items` (mdmunir).
 - Enh: Added menu manager (mdmunir).
 - Enh: Migration for table menu (mdmunir).
 - Enh: Added Menu order (mdmunir).
@@ -64,14 +64,14 @@ Yii2 Admin Change Log
 - Enh #57: Allow user to assign permission directly (mdmunir).
 - Chg #10: `cache` is not used anymore (mdmunir).
 - Chg #11: Only use required style sheet (mdmunir).
-- Chg: Using `VarDumper::export` to save `data` of `izyue\models\AuthItem` (mdmunir).
+- Chg: Using `VarDumper::export` to save `data` of `echoooxx\models\AuthItem` (mdmunir).
 - Chg: Allow using another `yii\rbac\Rule` instance (mdmunir).
 - Chg: Remove prefix `menu_` from column name of table `menu` (mdmunir).
 - Chg: Added column `data` to table `menu` (mdmunir).
-- Chg: Can customize return of `izyue\admin\components\AccessHelper::getAssignedMenu()` with provide a callback to method (mdmunir). 
+- Chg: Can customize return of `echoooxx\admin\components\AccessHelper::getAssignedMenu()` with provide a callback to method (mdmunir). 
 - Chg: Add require "yiisoft/yii2-jui" to composer.json (mdmunir, hashie5).
 - Chg: #21: Force set allow `null` to column `parent` in database migration (mdmunir).
-- Chg: Remove `izyue\admin\components\BizRule` (mdmunir).
+- Chg: Remove `echoooxx\admin\components\BizRule` (mdmunir).
 - Chg: Change convert string to `yii\rbac\Item::$data` with `Json::decode()` (mdmunir).
 - Chg: Add extra param to route (mdmunir).
 - Chg: Add ability to get sparated menu. See [Using Menu](docs/guide/using-menu.md) (mdmunir).
@@ -80,9 +80,9 @@ Yii2 Admin Change Log
 - Chg: Change migration path name (mdmunir).
 - Chg: `db` and `cache` configuration via `$app->params['mdm.admin.configs']` (mdmunir).
 - Chg: #29: Change `yii\caching\GroupDependency` to `yii\caching\TagDependency` (mdmunir).
-- Chg: Remove `izyue\admin\Module::allowActions`. Set access control directly with `izyue\admin\components\AccessControl` (mdmunir).
+- Chg: Remove `echoooxx\admin\Module::allowActions`. Set access control directly with `echoooxx\admin\components\AccessControl` (mdmunir).
 - Chg: Change cache strategy (mdmunir).
-- Chg: `izyue\admin\components\DbManager` now inherited from `yii\rbac\DbManager` (mdmunir).
+- Chg: `echoooxx\admin\components\DbManager` now inherited from `yii\rbac\DbManager` (mdmunir).
 - Chg: Change module default layout (mdmunir).
 - Chg: Change back items to controllers (mdmunir).
 - Chg: Set default layout to `null` (mdmunir).

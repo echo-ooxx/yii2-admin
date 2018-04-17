@@ -3,10 +3,10 @@
 namespace echoooxx\admin\controllers;
 
 use Yii;
-use izyue\admin\components\Helper;
+use echoooxx\admin\components\Helper;
 use yii\caching\TagDependency;
-use izyue\admin\components\RouteRule;
-use izyue\admin\components\Configs;
+use echoooxx\admin\components\RouteRule;
+use echoooxx\admin\components\Configs;
 use yii\helpers\Inflector;
 use yii\helpers\VarDumper;
 use Exception;
@@ -19,7 +19,7 @@ use Exception;
  */
 class RouteController extends \yii\web\Controller
 {
-    const CACHE_TAG = 'izyue.admin.route';
+    const CACHE_TAG = 'echoooxx.admin.route';
 
     /**
      * Lists all Route models.

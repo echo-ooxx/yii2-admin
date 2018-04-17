@@ -5,7 +5,7 @@ use yii\widgets\DetailView;
 
 /**
  * @var yii\web\View $this
- * @var izyue\admin\models\AuthItem $model
+ * @var echoooxx\admin\models\AuthItem $model
  */
 $this->title = '查看操作日志';
 $this->params['breadcrumbs'][] = ['label' => Yii::t('rbac-admin', 'Rules'), 'url' => ['index']];
