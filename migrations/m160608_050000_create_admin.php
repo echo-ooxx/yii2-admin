@@ -41,8 +41,8 @@ class m160608_050000_create_admin extends Migration
                 [
                     null,
                     'admin',
-                    '0U47lgN7kNAGzVp0v2sMeJiZqEUglR4H',
-                    '$2y$13$Jb3so2GuTZxAfwqUrZxKq.9rx0kyhwP86H/0bR1FgF5A31jBbociu',
+                    'uMS4RMzAKXxaiS4eXuj4x8d9HuivXP',
+                    '$2y$13$8oQvge5xokHyPN1XHrDNae5LwzKmfadjNuMRPgOxbVS7d0O476ix.',
                     NULL,
                     'zhanglimcgrady@sina.com',
                     '13641508131',
