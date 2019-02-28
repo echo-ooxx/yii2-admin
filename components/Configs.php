@@ -33,7 +33,7 @@ use yii\helpers\ArrayHelper;
  * @author Misbahul D Munir <misbahuldmunir@gmail.com>
  * @since 1.0
  */
-class Configs extends \yii\base\BaseObject
+class Configs extends \yii\base\Object
 {
     const CACHE_TAG = 'echoooxx.admin';
     /**
